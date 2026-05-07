@@ -20,7 +20,7 @@ window.PUBLICATIONS = [
   {
     title: "A Quantifier-Reversal Approximation Paradigm for Recurrent Neural Networks",
     authors: "Clemens Hutter, Valentin Abadie, Helmut Bölcskei",
-    year: 2025,
-    links: { pdf: "https://arxiv.org/pdf/2511.15326"}
+    year: 2026,
+    links: { pdf: "https://www.sciencedirect.com/science/article/pii/S0893608026004788"}
   }
 ];
