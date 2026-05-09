@@ -341,6 +341,31 @@ a:hover, a:focus { color: var(--text); border-color: var(--muted); }
 
 .site-footer { margin-top: 1rem; color: var(--muted); }
 
+.button-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.35rem;
+  padding: 0.55rem 0.8rem;
+  border: 1px solid var(--accent);
+  border-radius: 0.45rem;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: var(--shadow);
+}
+.button-link:hover,
+.button-link:focus {
+  color: #fff;
+  border-color: var(--accent);
+  filter: brightness(0.95);
+}
+.software-callout p:last-child {
+  margin-bottom: 0;
+}
+
+
 .sr-only {
   position: absolute;
   width: 1px; height: 1px;
